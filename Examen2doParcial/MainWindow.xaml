@@ -1,0 +1,25 @@
+﻿<Window x:Class="Examen2doParcial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Examen2doParcial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Name="panel">
+        <TextBlock FontSize="26">1. Informacion Personal > 2. Contacto > 3. Informacion de Pago</TextBlock>
+        <TextBlock FontSize="18" Margin="10,0,0,0"><Run Text="Nombre:"/></TextBlock>
+        <TextBox Name="txtnom" Height="27" Margin="10,0"></TextBox>
+        <TextBlock FontSize="18" Margin="10,0,0,0">Apellido Paterno: </TextBlock>
+        <TextBox Name="txtappat" Height="27" Margin="10,0"></TextBox>
+        <TextBlock FontSize="18" Margin="10,0,0,0">Apellido Materno:</TextBlock>
+        <TextBox Name="txtapmat" Height="27" Margin="10,0"></TextBox>
+        <TextBlock FontSize="18" Margin="10,0,0,0">Edad:</TextBlock>
+        <TextBox Name="txtedad" Height="27" Margin="10,0"></TextBox>
+            <TextBlock Name="txtexep2" Visibility="Hidden" FontSize="18">Favor de completar los campos</TextBlock>
+        <Button HorizontalAlignment="Right" FontSize="18" Name="btnsig1" Click="btnsig1_Click" Content="Siguiente" Margin="0,0,10,0" Width="91"/>
+
+    </StackPanel>
+    </StackPanel>
+</Window>
